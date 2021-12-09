@@ -21,6 +21,8 @@
 		3BFA6A6C27620CFC001111EB /* DGGoal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFA6A6A27620CFC001111EB /* DGGoal.swift */; };
 		3BFA6A6E27620D10001111EB /* DGGoalRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFA6A6D27620D10001111EB /* DGGoalRecord.swift */; };
 		3BFA6A6F27620D10001111EB /* DGGoalRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFA6A6D27620D10001111EB /* DGGoalRecord.swift */; };
+		3BFA6A7127621186001111EB /* Persistence+Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFA6A7027621186001111EB /* Persistence+Preview.swift */; };
+		3BFA6A7227621186001111EB /* Persistence+Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFA6A7027621186001111EB /* Persistence+Preview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,7 @@
 		3BFA6A5727620929001111EB /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		3BFA6A6A27620CFC001111EB /* DGGoal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DGGoal.swift; sourceTree = "<group>"; };
 		3BFA6A6D27620D10001111EB /* DGGoalRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DGGoalRecord.swift; sourceTree = "<group>"; };
+		3BFA6A7027621186001111EB /* Persistence+Preview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Persistence+Preview.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +76,7 @@
 				3BFA6A4527620928001111EB /* DailyGoals.xcdatamodeld */,
 				3BFA6A6D27620D10001111EB /* DGGoalRecord.swift */,
 				3BFA6A6A27620CFC001111EB /* DGGoal.swift */,
+				3BFA6A7027621186001111EB /* Persistence+Preview.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -196,6 +200,7 @@
 				3BFA6A5A27620929001111EB /* DailyGoalsApp.swift in Sources */,
 				3BFA6A5E27620929001111EB /* Persistence.swift in Sources */,
 				3BFA6A6B27620CFC001111EB /* DGGoal.swift in Sources */,
+				3BFA6A7127621186001111EB /* Persistence+Preview.swift in Sources */,
 				3BFA6A5827620929001111EB /* DailyGoals.xcdatamodeld in Sources */,
 				3BFA6A5C27620929001111EB /* ContentView.swift in Sources */,
 			);
@@ -209,6 +214,7 @@
 				3BFA6A5B27620929001111EB /* DailyGoalsApp.swift in Sources */,
 				3BFA6A5F27620929001111EB /* Persistence.swift in Sources */,
 				3BFA6A6C27620CFC001111EB /* DGGoal.swift in Sources */,
+				3BFA6A7227621186001111EB /* Persistence+Preview.swift in Sources */,
 				3BFA6A5927620929001111EB /* DailyGoals.xcdatamodeld in Sources */,
 				3BFA6A5D27620929001111EB /* ContentView.swift in Sources */,
 			);
