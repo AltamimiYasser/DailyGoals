@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BFA6A5827620929001111EB /* DailyGoals.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3BFA6A4527620928001111EB /* DailyGoals.xcdatamodeld */; };
+		3BFA6A5927620929001111EB /* DailyGoals.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3BFA6A4527620928001111EB /* DailyGoals.xcdatamodeld */; };
+		3BFA6A5A27620929001111EB /* DailyGoalsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFA6A4727620928001111EB /* DailyGoalsApp.swift */; };
+		3BFA6A5B27620929001111EB /* DailyGoalsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFA6A4727620928001111EB /* DailyGoalsApp.swift */; };
+		3BFA6A5C27620929001111EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFA6A4827620928001111EB /* ContentView.swift */; };
+		3BFA6A5D27620929001111EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFA6A4827620928001111EB /* ContentView.swift */; };
+		3BFA6A5E27620929001111EB /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFA6A4927620928001111EB /* Persistence.swift */; };
+		3BFA6A5F27620929001111EB /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFA6A4927620928001111EB /* Persistence.swift */; };
+		3BFA6A6027620929001111EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BFA6A4A27620929001111EB /* Assets.xcassets */; };
+		3BFA6A6127620929001111EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BFA6A4A27620929001111EB /* Assets.xcassets */; };
+		3BFA6A6B27620CFC001111EB /* DGGoal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFA6A6A27620CFC001111EB /* DGGoal.swift */; };
+		3BFA6A6C27620CFC001111EB /* DGGoal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFA6A6A27620CFC001111EB /* DGGoal.swift */; };
+		3BFA6A6E27620D10001111EB /* DGGoalRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFA6A6D27620D10001111EB /* DGGoalRecord.swift */; };
+		3BFA6A6F27620D10001111EB /* DGGoalRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFA6A6D27620D10001111EB /* DGGoalRecord.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3BFA6A4627620928001111EB /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
+		3BFA6A4727620928001111EB /* DailyGoalsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyGoalsApp.swift; sourceTree = "<group>"; };
+		3BFA6A4827620928001111EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3BFA6A4927620928001111EB /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		3BFA6A4A27620929001111EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3BFA6A4F27620929001111EB /* DailyGoals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyGoals.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BFA6A5527620929001111EB /* DailyGoals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyGoals.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BFA6A5727620929001111EB /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		3BFA6A6A27620CFC001111EB /* DGGoal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DGGoal.swift; sourceTree = "<group>"; };
+		3BFA6A6D27620D10001111EB /* DGGoalRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DGGoalRecord.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BFA6A4C27620929001111EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BFA6A5227620929001111EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BFA6A3F27620928001111EB = {
+			isa = PBXGroup;
+			children = (
+				3BFA6A4427620928001111EB /* Shared */,
+				3BFA6A5627620929001111EB /* macOS */,
+				3BFA6A5027620929001111EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3BFA6A4427620928001111EB /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				3BFA6A4727620928001111EB /* DailyGoalsApp.swift */,
+				3BFA6A4827620928001111EB /* ContentView.swift */,
+				3BFA6A4927620928001111EB /* Persistence.swift */,
+				3BFA6A4A27620929001111EB /* Assets.xcassets */,
+				3BFA6A4527620928001111EB /* DailyGoals.xcdatamodeld */,
+				3BFA6A6D27620D10001111EB /* DGGoalRecord.swift */,
+				3BFA6A6A27620CFC001111EB /* DGGoal.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		3BFA6A5027620929001111EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BFA6A4F27620929001111EB /* DailyGoals.app */,
+				3BFA6A5527620929001111EB /* DailyGoals.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BFA6A5627620929001111EB /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				3BFA6A5727620929001111EB /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BFA6A4E27620929001111EB /* DailyGoals (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BFA6A6427620929001111EB /* Build configuration list for PBXNativeTarget "DailyGoals (iOS)" */;
+			buildPhases = (
+				3BFA6A4B27620929001111EB /* Sources */,
+				3BFA6A4C27620929001111EB /* Frameworks */,
+				3BFA6A4D27620929001111EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DailyGoals (iOS)";
+			productName = "DailyGoals (iOS)";
+			productReference = 3BFA6A4F27620929001111EB /* DailyGoals.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3BFA6A5427620929001111EB /* DailyGoals (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BFA6A6727620929001111EB /* Build configuration list for PBXNativeTarget "DailyGoals (macOS)" */;
+			buildPhases = (
+				3BFA6A5127620929001111EB /* Sources */,
+				3BFA6A5227620929001111EB /* Frameworks */,
+				3BFA6A5327620929001111EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DailyGoals (macOS)";
+			productName = "DailyGoals (macOS)";
+			productReference = 3BFA6A5527620929001111EB /* DailyGoals.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BFA6A4027620928001111EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					3BFA6A4E27620929001111EB = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					3BFA6A5427620929001111EB = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 3BFA6A4327620928001111EB /* Build configuration list for PBXProject "DailyGoals" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3BFA6A3F27620928001111EB;
+			productRefGroup = 3BFA6A5027620929001111EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BFA6A4E27620929001111EB /* DailyGoals (iOS) */,
+				3BFA6A5427620929001111EB /* DailyGoals (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BFA6A4D27620929001111EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BFA6A6027620929001111EB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BFA6A5327620929001111EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BFA6A6127620929001111EB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BFA6A4B27620929001111EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BFA6A6E27620D10001111EB /* DGGoalRecord.swift in Sources */,
+				3BFA6A5A27620929001111EB /* DailyGoalsApp.swift in Sources */,
+				3BFA6A5E27620929001111EB /* Persistence.swift in Sources */,
+				3BFA6A6B27620CFC001111EB /* DGGoal.swift in Sources */,
+				3BFA6A5827620929001111EB /* DailyGoals.xcdatamodeld in Sources */,
+				3BFA6A5C27620929001111EB /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BFA6A5127620929001111EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BFA6A6F27620D10001111EB /* DGGoalRecord.swift in Sources */,
+				3BFA6A5B27620929001111EB /* DailyGoalsApp.swift in Sources */,
+				3BFA6A5F27620929001111EB /* Persistence.swift in Sources */,
+				3BFA6A6C27620CFC001111EB /* DGGoal.swift in Sources */,
+				3BFA6A5927620929001111EB /* DailyGoals.xcdatamodeld in Sources */,
+				3BFA6A5D27620929001111EB /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3BFA6A6227620929001111EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3BFA6A6327620929001111EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		3BFA6A6527620929001111EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QR7WDH4LZ3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail-altamimiy89.DailyGoals";
+				PRODUCT_NAME = DailyGoals;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3BFA6A6627620929001111EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QR7WDH4LZ3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail-altamimiy89.DailyGoals";
+				PRODUCT_NAME = DailyGoals;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BFA6A6827620929001111EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QR7WDH4LZ3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail-altamimiy89.DailyGoals";
+				PRODUCT_NAME = DailyGoals;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3BFA6A6927620929001111EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QR7WDH4LZ3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail-altamimiy89.DailyGoals";
+				PRODUCT_NAME = DailyGoals;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BFA6A4327620928001111EB /* Build configuration list for PBXProject "DailyGoals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BFA6A6227620929001111EB /* Debug */,
+				3BFA6A6327620929001111EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BFA6A6427620929001111EB /* Build configuration list for PBXNativeTarget "DailyGoals (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BFA6A6527620929001111EB /* Debug */,
+				3BFA6A6627620929001111EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BFA6A6727620929001111EB /* Build configuration list for PBXNativeTarget "DailyGoals (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BFA6A6827620929001111EB /* Debug */,
+				3BFA6A6927620929001111EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3BFA6A4527620928001111EB /* DailyGoals.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3BFA6A4627620928001111EB /* Shared.xcdatamodel */,
+			);
+			currentVersion = 3BFA6A4627620928001111EB /* Shared.xcdatamodel */;
+			path = DailyGoals.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3BFA6A4027620928001111EB /* Project object */;
+}

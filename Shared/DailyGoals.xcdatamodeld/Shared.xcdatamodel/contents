@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19461" systemVersion="21A559" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="YES" userDefinedModelVersionIdentifier="">
+    <entity name="DGGoal" representedClassName="DGGoal" syncable="YES">
+        <attribute name="addedOn" attributeType="Date" defaultDateTimeInterval="660736560" usesScalarValueType="NO"/>
+        <attribute name="icon" attributeType="String" defaultValueString=""/>
+        <attribute name="id" attributeType="UUID" defaultValueString="50CFE98D-5D54-4954-A7C5-76CCD4739C25" usesScalarValueType="NO"/>
+        <attribute name="isRemoved" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="modifiedOn" attributeType="Date" defaultDateTimeInterval="660736620" usesScalarValueType="NO"/>
+        <attribute name="position" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="title" attributeType="String" defaultValueString=""/>
+        <relationship name="records" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="DGGoalRecord" inverseName="goal" inverseEntity="DGGoalRecord"/>
+    </entity>
+    <entity name="DGGoalRecord" representedClassName="DGGoalRecord" syncable="YES">
+        <attribute name="date" attributeType="Date" defaultDateTimeInterval="660736920" allowsCloudEncryption="YES" usesScalarValueType="NO"/>
+        <relationship name="goal" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="DGGoal" inverseName="records" inverseEntity="DGGoal"/>
+    </entity>
+    <elements>
+        <element name="DGGoal" positionX="-54" positionY="0" width="128" height="149"/>
+        <element name="DGGoalRecord" positionX="-36" positionY="63" width="128" height="59"/>
+    </elements>
+</model>
